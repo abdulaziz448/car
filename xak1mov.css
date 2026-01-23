@@ -1,0 +1,87 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BOOY */
+body{
+    font-family: sans-serif;
+    background: white;
+}
+/* NAVBAR */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background: #111827;
+    color: white;
+}
+/* LOGO */
+.logo{
+    font-size: 22;
+    font-weight: bold;
+}
+/* MENU */
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+/* LINK */
+.menu li a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 5px 0;
+}
+.menu li a:hover::after{
+    width: 100%;
+}
+/* li:hover */
+.menu li:hover a{
+    color: #38bdf8;
+}
+/* firs / last */
+.menu li:first-child a {
+    color: #43ee00;
+}
+/* RIGHT */
+.nav-right{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+/* INPUT */
+.nav-right input{
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+/* input:focus */
+.nav-right input :focus{
+    outline: 2px solid #38bdf8;
+}
+/* BUTTOM */
+.login-btn{
+    padding: 8px 16px;
+    background: #2563eb;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+/* buttom:hover */
+.login-btn:hover{
+    background: #1d4ed8
+}
+/* buttom:active */
+.login-btn:active{
+    transform: scale(0.95);
+}
+/* buttom::before */
+.login-btn::before{
+    content:🦅 ;
+}

@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  background-color: rgb(27, 29, 51);
+  height: 70px;
+  justify-content: space-between;
+  display: flex;
+  text-decoration: none;
+  
+}
+.car {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  position: relative;
+  top: 20px;
+  left: 30px;
+  list-style: none;
+
+}
+.car1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px 30px;
+  list-style: none;
+  color: rgb(216, 0, 0);
+  gap: 50px;
+}
+.car1 li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.car1 li:first-child a{
+    color: green ;
+}
+.car1 li:last-child a{
+    color: yellow;
+}
+.boy {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.boy input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+}
+.boy input :focus{
+    color: red;
+}
+.bosh li a :hover{
+    color: green;
+    cursor: pointer;
+    list-style: none;
+}
+.btn{
+    color: white;
+    background-color: blue;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+} 
+.rasm{
+    background-color: gray;
+    border: 5px solid rgb(0, 0, 0) ;
+    width: 360px;
+    height: 600px;
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+} 
+.pubg{
+    position: relative;
+    left: 130px;
+    top: 40px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 90px;
+    height: 20px;
+    
+} 
+.pubg:hover{
+    background-color: blue;
+    transform: scale(1.2);
+}
+.rasm1{
+    background-color: gray;
+    border: 5px solid rgb(0, 0, 0) ;
+    width: 360px;
+    height: 600px;
+    border-radius: 10px;
+    position: relative;
+    left: 400px;
+    bottom: 590px;
+} 
+.pubg1{
+    position: relative;
+    left: 130px;
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 90px;
+    height: 20px;
+} 
+.pubg1:hover{
+    background-color: blue;
+    transform: scale(1.2);
+}

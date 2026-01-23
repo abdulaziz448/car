@@ -1,0 +1,31 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+.continer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: brown;
+}
+.items_link{
+    color: blue;
+    list-style: none;
+    display: flex;
+    gap: 50px; 
+}
+.nuryigit{
+    cursor: pointer;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(252, 214, 0);
+    transform: scale(1.2);
+}
