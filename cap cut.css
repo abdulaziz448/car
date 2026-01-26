@@ -88,7 +88,7 @@
 .for {
   position: relative;
   left: 700px;
-  top: 200px;
+  top: 210px;
   background-color: rgb(2, 128, 231);
   border-radius: 10px;
   width: 200px;
@@ -214,4 +214,13 @@
 .ss{
   background-color: aquamarine;
   
+}
+.clone{
+  position: relative;
+  right: 80px;
+  top: 8px;
+}
+.con{
+  position: relative;
+  top: -10px;
 }
