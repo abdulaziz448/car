@@ -1,2 +1,0 @@
-# capcut
-# vv
