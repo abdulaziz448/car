@@ -80,15 +80,36 @@
   font-family: sans-serif;
   font-weight: 800;
 }
+.dele{
+  position: relative;
+  left: 100px;
+}
+.bb{
+  position: relative;
+  left: 20px;
+  font-size: 20px;
+}
+.bey{
+  position: relative;
+  left: 250px;
+  font-family: sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+}
+.tre{
+  font-size: 20px;
+}
 .pad {
   position: relative;
   left: 600px;
   top: 150px;
+  font-family: sans-serif;
+  font-weight: 500;
 }
 .for {
   position: relative;
-  left: 700px;
-  top: 210px;
+  left: 1100px;
+  top: 200px;
   background-color: rgb(2, 128, 231);
   border-radius: 10px;
   width: 200px;
@@ -97,13 +118,17 @@
   font-family: sans-serif;
   font-weight: 550;
 }
+.bu{
+  position: relative;
+  left: 650px;
+}
 .try:hover {
   background-color: rgb(68, 68, 70);
 }
 .try {
   position: relative;
-  left: 705px;
-  top: 200px;
+  left: 110px;
+  top: 190px;
   background-color: rgb(0, 0, 0);
   color: white;
   border-radius: 10px;
@@ -117,6 +142,7 @@
     left: 800px;
     top: 220px;
     color: rgb(76, 80, 83);
+    font-size: 20px;
 }
 .hh{
     position: relative;
@@ -212,7 +238,7 @@
   font-size: 20px;
 }
 .ss{
-  background-color: aquamarine;
+  background-color: rgba(132, 222, 245, 0.377);
   
 }
 .clone{
@@ -223,4 +249,77 @@
 .con{
   position: relative;
   top: -10px;
+}
+.ss{
+  position: relative;
+  left: 50px;
+  width: 1400px;
+  top: 50px;
+  height: 500px;
+  border-radius: 50px;
+  border: none;
+}
+.mm{
+  position: relative;
+  right: 660px;
+  bottom: 100px;
+}
+.dd{
+  position: relative;
+  left: 1400px;
+  bottom: 450px;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
+.text{ 
+  position: relative;
+  right: 450px;
+  bottom: 130px;
+}
+.vv{
+ position: relative;
+ right: 373px;
+ bottom: 50px;
+ font-family: sans-serif;
+ font-weight: 600;
+ font-size: 20px;
+}
+.pp{
+  position: relative;
+  right: 315px;
+  bottom: 40px;
+}
+.ww{
+   position: relative;
+  right: 340px;
+  bottom: 35px;
+}
+.whit{
+  position: relative;
+  right: 385px;
+  bottom: 10px;
+}
+.qq{
+    position: relative;
+  bottom: -5px;
+ right: 374px;
+}
+.ee{
+position: relative;
+ right: 383px;
+ bottom: -15px;
+}
+.vd1{
+  width: 500px;
+  height: 300px;
+  position: relative;
+  left: 900px;
+  bottom: 400px;
+}
+.for{
+  position: relative;
+  left: 100px;
 }
