@@ -1,0 +1,54 @@
+.continer{
+    width: 100%;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo_links{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    list-style: none ;
+}
+.navbar_rigth{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    align-items: center;
+}
+.input{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-radius: 20px;
+}
+.input_div{
+    position: relative;
+}
+.icon{
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.hero{
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+.hero img{
+    width: 100%;
+    height: 100%;
+}
+.hero_text{
+    position: absolute;
+    top: 100px;
+    left: 1400px;
+}

@@ -1333,3 +1333,39 @@ position: relative;
 .room:hover{
     color: grey;
 }
+footer{
+  width: 100%;
+  margin-top: 300px;
+  margin-bottom: 200px;
+  margin-left: 200px;
+
+}
+.footerColum1{
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+.footerColum2{
+  width: 30%;
+  
+  align-items: center;
+}
+.svg{
+  width: 100%;
+  margin-left: 1200px;
+  margin-bottom: 100px;
+  justify-content: space-around;
+  display: flex;
+}
+.bnt{
+  border-radius: 10px;
+ 
+  width: 30px;
+  margin-left: 700px;
+;
+  margin-top: 10px;
+}
+.fa-brands {
+  width: 100%;
+  margin-bottom: 00px;
+}
