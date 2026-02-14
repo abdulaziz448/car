@@ -1347,25 +1347,95 @@ footer{
 }
 .footerColum2{
   width: 30%;
-  
   align-items: center;
 }
 .svg{
   width: 100%;
   margin-left: 1200px;
-  margin-bottom: 100px;
+  margin-top:  -250px;
   justify-content: space-around;
   display: flex;
 }
-.bnt{
+.bnt2{
   border-radius: 10px;
- 
+  color: grey;
+  background-color: rgb(255, 255, 255);
   width: 30px;
-  margin-left: 700px;
-;
-  margin-top: 10px;
+  height: 30px;
+  margin-left: 1400px;
+  margin-top: 50px;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
 }
-.fa-brands {
-  width: 100%;
-  margin-bottom: 00px;
+.bnt2:hover{
+  transform: scale(1.1);
+  color: black;
+}
+.you {
+  border-radius: 10px;
+  color: grey;
+  background-color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  margin-left: 1440px;
+  margin-top: -28px;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+.you:hover{
+  transform: scale(1.1);
+  color: black;
+}
+.insta{
+   border-radius: 10px;
+  color: grey;
+  background-color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  margin-left: 1480px;
+  margin-top: -30px;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+.insta:hover{
+  transform: scale(1.1);
+  color: black;
+}
+.fece{
+   border-radius: 10px;
+  color: grey;
+  background-color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  margin-left: 1520px;
+  margin-top: -30px;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+}
+.fece:hover{
+  transform: scale(1.1);
+  color: black;
+}
+.edit1{
+  display: flex;
+  margin-left: 1500px;
+  margin-top: -260px;
+}
+
+.global{
+margin-left: 1600px;
+margin-top: 100px;
+display: flex;
+gap: 10px;
+align-items: center;
+color: gray;
+transition: 0.5s;
+}
+.global:hover{
+  color: black;
+  cursor: pointer;
 }
